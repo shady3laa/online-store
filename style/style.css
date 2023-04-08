@@ -1,0 +1,395 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.container {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#sec1 {
+	/* height: 95vh; */
+	background-image: url(../images/sep.png);
+	background-size: cover;
+}
+#sec1 nav .img {
+	width: 300px;
+	justify-content: flex-start;
+	color: #fdcf13;
+	padding: 7px;
+}
+#sec1 nav .img img {
+	width: 50px;
+	margin-right: 15px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#sec1 nav {
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	top: 20px;
+}
+#sec1 nav .links a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 15px ;
+}
+#sec1 nav .icons .fa-brands {
+	font-size: 25px;
+	font-size: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+#sec1 nav .links,
+#sec1 nav .icons {
+	display: none;
+}
+#sec1 nav .menu i {
+	font-size: 25px;
+}
+#sec1 div.container article {
+	margin: 0 auto;
+	width: 540px;
+}
+#sec1 div.container article img {
+	max-width: 100%;
+}
+#sec1 div.container .content {
+	text-align: center;
+}
+#sec1 div.container .content h3 {
+	padding: 20px;
+}
+#sec1 div.container .content h2 {
+	font-size: 45px;
+    font-weight: 900;
+}
+#sec1 div.container .content span {
+	color: #cd8383;
+}
+#sec1 div.container .content a {
+	background-color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 25px 37px;
+    width: fit-content;
+    margin: 20px auto;
+	border-radius: 35px;
+}
+#sec1  .para {
+	background-color: #000;
+    color: white;
+    text-align: justify;
+	padding: 20px;
+}
+#sec1 .para h3 {
+	padding: 15px 0;
+}
+#sec1 .container .product .desktop {
+	display: none;
+}
+/* //////// */
+.panner {
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	background-color: #fdcf13;
+	padding: 15px;
+}
+/* //////// */
+/* ///////////////////////// */
+#sec2 {
+	padding: 50px 0;
+}
+#sec2 div.container  .h2 {
+	padding: 20px 0;
+	text-align: center;
+}
+#sec2 .card {
+	width: 345px;
+	background-color: #000;
+	color: #fff;
+	text-align: justify;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+#sec2 .card h2 {
+	padding: 15px 15px 0 15px;
+	color: #fdcf13;
+}
+#sec2 .card p {
+	padding: 15px;
+}
+#sec2 .card img {
+	max-width: 100%;
+}
+#sec2 .content {
+	justify-content: center;
+}
+/* //////////////////////////// */
+#sec3  {
+	padding: 50px 0;
+	background-color: #000;
+}
+#sec3 .h3 {
+	text-align: center;
+	color: #fdcf13;
+	padding-bottom: 20px;
+}
+#sec3 .cards {
+	padding-bottom: 25px;
+}
+#sec3 .cards .card {
+	width: 250px;
+	margin-bottom: 20px;
+}
+#sec3 .cards .card img {
+	max-width: 100%;
+}
+#sec3 .cards {
+	justify-content: center;
+}
+#sec3 .panner h2 {
+    font-size: 15px;
+    padding: 20px;
+}
+.btn {
+	text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+}
+/* /////////////////////////////// */
+#sec4 {
+	background-color: #000;
+	color: #fff;
+	padding-bottom: 30px;
+}
+#sec4 .content .img {
+	width: 350px;
+	margin: 20px 0;
+}
+#sec4 .content .img img {
+	max-width: 100%;
+}
+#sec4 .head {
+	text-align: center;
+}
+#sec4 .head h2 {
+	padding: 20px 0;
+    font-weight: 700;
+}
+#sec4 .head p {
+	padding: 15px 0;
+}
+#sec4 .content {
+	justify-content: center;
+}
+#sec4 .content .rates {
+	justify-content: center;
+}
+#sec4 .content .rates .num {
+	width: 250px;
+	margin-bottom: 20px;
+}
+#sec4 .content .rates .num h2 {
+	font-size: 45px;
+}
+#sec4 .content .rates .num p {
+	padding: 15px 0;
+
+}
+/* ///////////////////////////////////// */
+#sec5 {
+	position: relative;
+}
+#sec5 .back {
+	height: 550px;
+	width: 100%; 
+}
+#sec5 .back img {
+	width: 100%;
+	height: 100%;
+}
+#sec5 .container {
+	position: absolute;
+	top: 14%;
+	left: 4%;
+	
+}
+#sec5 .content h2 {
+	color: #fdcf13;
+	padding: 15px 0;
+}
+#sec5 .content p {
+	padding: 15px 0;
+	color: #fff;
+}
+#sec5 .content {
+	margin-bottom: 40px;
+
+}
+#sec5 .container .form {
+	display: flex;
+    flex-direction: column;
+	box-shadow:0px 0px 17px 4px orange;
+	padding: 15px;
+}
+#sec5 .container .form input {
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+
+}
+#sec5 .container .form button {
+	padding: 15px;
+    background-color: orange;
+    color: white;
+    border: none;
+	width: 100%;
+}
+/* ///////////////////////////////// */
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 50px 0;
+}
+footer .col {
+	margin-bottom: 20px;
+}
+footer .col .fa-brands {
+	margin-right: 15px;
+}
+footer .col .h2 {
+	padding: 15px 0;
+    border-bottom: 1px solid;
+}
+footer .col a {
+	color: #000;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+	#sec3 .cards {
+		justify-content: space-between;
+	}
+	#sec4 .content .rates {
+		justify-content: space-between;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+	.container {
+		width: 720px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#sec2 .content {
+		justify-content: space-between;
+	}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.container {
+		width: 920px;
+	}
+	#sec1 nav .links,
+    #sec1 nav .icons {
+	display: block;
+}
+#sec1 div.container .content {
+	text-align: start;
+}
+
+#sec1 .reverse {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+#sec1 nav .menu {
+	display: none;
+}
+#sec1 .container .product .phone {
+	display: none;
+}
+#sec1 .container .product .desktop {
+	height: 530px;
+} 
+#sec1 .container .product .desktop {
+	display: block;
+}
+#sec1 div.container .content a {
+	margin: 20px 0;
+}
+#sec2 .card {
+	width: 400px;
+}
+#sec3 .panner .container {
+	display: flex;
+	align-items: center;
+}
+#sec4 .head {
+	text-align: start;
+}
+#sec4 .content {
+	justify-content: space-between;
+}
+#sec4 .content .rates {
+	width: 550px;
+}
+#sec5 .container .content {
+	width: 50%;
+}
+#sec5 .container .form {
+	width: 40%;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+	.container {
+		width: 1140px;
+	}
+	#sec2 .card {
+		width: 400px;
+	}
+	#sec4 .content .img {
+		width: 500px;
+		
+	}
+	#sec5 .container {
+		top: 35%;
+	}
+}
+@media (min-width: 1400px) {  
+	.container {
+		width: 1340px;
+	}
+	#sec3 .cards .card {
+		width: 300px;
+	}
+	#sec4 .content .img {
+		width: 600px;
+	}
+	#sec4 .content .rates {
+		width: 620px;
+	}
+	
+}
